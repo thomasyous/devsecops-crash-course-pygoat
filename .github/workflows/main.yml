@@ -40,7 +40,7 @@ jobs:
       - name: Set UP Docker
         uses: docker-practice/actions-setup-docker@v1
         with:
-          docker Version: '20.10'
+          docker Version: latest
 
       - name: Build Docker Image
         run: docker build -f Dockerfile -t pygoat:latest .
