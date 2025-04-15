@@ -7,6 +7,10 @@ jobs:
     name: Run bandit Scan
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: read
+      actions: write
+
     steps:
     - name: Checkout Code
       uses: actions/checkout@v2
