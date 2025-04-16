@@ -30,7 +30,7 @@ jobs:
       path: bandit-report.json
   
  image_scan: 
-    name: Build iamge and run Image scan
+    name: Build image and run Image scan
     runs-on: ubuntu-latest
 
     steps:
